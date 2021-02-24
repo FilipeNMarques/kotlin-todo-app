@@ -5,4 +5,12 @@
     <string name="no_data">No data</string>
     <string name="no_data_enjoy_your_day">No data, enjoy your day :)</string>
     <string name="todo">TODO</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+
+    <string-array name="priorities">
+        <item>High Priority</item>
+        <item>Medium Priority</item>
+        <item>Low Priority</item>
+    </string-array>
 </resources>
