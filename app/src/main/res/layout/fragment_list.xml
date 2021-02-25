@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/list_layout"
     tools:context=".fragments.list.ListFragment">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -27,10 +28,12 @@
         android:contentDescription="@string/todo"
         android:focusable="true"
         android:src="@drawable/ic_add"
-        android:tint="@color/white"
+        android:tint="#FFFFFF"
+
+        app:backgroundTint="@color/purple_500"
+        app:fabSize="normal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:rippleColor="#E91E63" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
         android:id="@+id/no_data_imageView"
